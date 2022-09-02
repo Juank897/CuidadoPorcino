@@ -1,0 +1,17 @@
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\obj\Debug\net6.0\CuidadoPorcino.App.Persistencia.csproj.AssemblyReference.cache
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\obj\Debug\net6.0\CuidadoPorcino.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\obj\Debug\net6.0\CuidadoPorcino.App.Persistencia.AssemblyInfoInputs.cache
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\obj\Debug\net6.0\CuidadoPorcino.App.Persistencia.AssemblyInfo.cs
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\obj\Debug\net6.0\CuidadoPorcino.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\bin\Debug\net6.0\CuidadoPorcino.App.Persistencia.deps.json
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\bin\Debug\net6.0\CuidadoPorcino.App.Persistencia.runtimeconfig.json
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\bin\Debug\net6.0\CuidadoPorcino.App.Persistencia.dll
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\bin\Debug\net6.0\CuidadoPorcino.App.Persistencia.pdb
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\bin\Debug\net6.0\CuidadoPorcino.App.Dominio.dll
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\bin\Debug\net6.0\CuidadoPorcino.App.Dominio.pdb
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\obj\Debug\net6.0\CuidadoPorcino.App.Persistencia.csproj.CopyComplete
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\obj\Debug\net6.0\CuidadoPorcino.App.Persistencia.dll
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\obj\Debug\net6.0\refint\CuidadoPorcino.App.Persistencia.dll
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\obj\Debug\net6.0\CuidadoPorcino.App.Persistencia.pdb
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\obj\Debug\net6.0\CuidadoPorcino.App.Persistencia.genruntimeconfig.cache
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Persistencia\obj\Debug\net6.0\ref\CuidadoPorcino.App.Persistencia.dll

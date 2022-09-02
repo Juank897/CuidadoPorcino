@@ -1,0 +1,12 @@
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\bin\Debug\net6.0\CuidadoPorcino.App.Dominio.deps.json
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\bin\Debug\net6.0\CuidadoPorcino.App.Dominio.dll
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\bin\Debug\net6.0\CuidadoPorcino.App.Dominio.pdb
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\obj\Debug\net6.0\CuidadoPorcino.App.Dominio.csproj.AssemblyReference.cache
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\obj\Debug\net6.0\CuidadoPorcino.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\obj\Debug\net6.0\CuidadoPorcino.App.Dominio.AssemblyInfoInputs.cache
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\obj\Debug\net6.0\CuidadoPorcino.App.Dominio.AssemblyInfo.cs
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\obj\Debug\net6.0\CuidadoPorcino.App.Dominio.csproj.CoreCompileInputs.cache
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\obj\Debug\net6.0\CuidadoPorcino.App.Dominio.dll
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\obj\Debug\net6.0\refint\CuidadoPorcino.App.Dominio.dll
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\obj\Debug\net6.0\CuidadoPorcino.App.Dominio.pdb
+C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Dominio\obj\Debug\net6.0\ref\CuidadoPorcino.App.Dominio.dll
