@@ -1,9 +1,11 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 namespace   CuidadoPorcino.App.Dominio
 {
     public class Cerdo
     {
-        public int IdCerdo {get; set;}
+        [Key]
+        public int IdCerdos {get; set;}
         public string Nombre {get; set;}   
         public string Color {get; set;} 
         public string Especie {get; set;} 

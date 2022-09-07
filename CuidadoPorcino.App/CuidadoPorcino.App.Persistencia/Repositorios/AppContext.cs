@@ -17,7 +17,7 @@ namespace CuidadoPorcino.App.Persistencia
        if(!optionsBuilder.IsConfigured)// configuracion de la base de datos
        {
         optionsBuilder
-        .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog=CuidadoPorcino");
+        .UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CuidadoPorcinoFinal;Integrated Security=True");
        }
      }
 

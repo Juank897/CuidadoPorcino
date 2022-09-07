@@ -1,9 +1,11 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 namespace   CuidadoPorcino.App.Dominio
 {
     public class HistoriaClinica
-    {     
-        public int IdHistoria{get; set;} 
+    {    
+        [Key] 
+        public int IdHistoriaClinica{get; set;} 
         public string FechaApertura{get; set;}       
         
     }
