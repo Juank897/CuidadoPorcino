@@ -18,7 +18,7 @@ namespace CuidadoPorcino.App.Consola1
         {
             Cerdo cerdo = new Cerdo
             {
-                //IdCerdos = 1,
+                //IdCerdos = 1, por defecto crea la llave primaria 
                 Nombre = "Cerdito1",
                 Color = "Negro",
                 Especie = "Zungo",

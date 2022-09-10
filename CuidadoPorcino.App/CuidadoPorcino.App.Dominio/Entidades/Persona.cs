@@ -10,9 +10,7 @@ namespace   CuidadoPorcino.App.Dominio
         public string Apellidos {get; set;}
         public string Direccion{get; set;}
         public string Telefono{get; set;}
-        public string Email{get; set;}
+        public string Email{get; set;}         
         
-        public Propietario propietario{get; set;}
-        public Veterinario veterinario{get; set;}
     }
 }
