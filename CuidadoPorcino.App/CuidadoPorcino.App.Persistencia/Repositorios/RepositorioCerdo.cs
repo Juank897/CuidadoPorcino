@@ -14,16 +14,14 @@ namespace CuidadoPorcino.App.Persistencia
         }
         Cerdo INRepositorioCerdo.AddCerdo(Cerdo cerdo) // metodo adicionar cerdo, retorna tipo cerdo
         {
-            //Console.WriteLine("El valor es " + cerdo.Color );
-
             var cerdoAdicionado = _appContext.Cerdos.Add(cerdo);// crear variabale "cerdoAdicionado " de tipo var
-            //_appContext.Cerdos.Add(cerdo); creo con tutor mercelo y funciona
+            //_appContext.Cerdos.Add(cerdo); se crea con tutor mercelo y funciona
             _appContext.SaveChanges(); // guardar cambios
             return cerdoAdicionado.Entity;
             // return null; creado con tutor marcelo funciona
         }
 
-        void INRepositorioCerdo.DeleteCerdo(int idCerdos)
+        void INRepositorioCerdo.DeleteCerdo(int idCerdos) // metodo eliminar cerdo, no retorna
         {
             var cerdoEncontrado = _appContext.Cerdos.FirstOrDefault(p => p.IdCerdos == idCerdos); //buscar el cerdo con el comando FirstOrDefault()
             if (cerdoEncontrado == null)
@@ -33,26 +31,28 @@ namespace CuidadoPorcino.App.Persistencia
             _appContext.Cerdos.Remove(cerdoEncontrado);
         }
 
-        IEnumerable<Cerdo> INRepositorioCerdo.GetAllCerdos()
+        IEnumerable<Cerdo> INRepositorioCerdo.GetAllCerdos()//metodo para listar todos los cerdos
         {
             return _appContext.Cerdos;
         }
 
-        Cerdo INRepositorioCerdo.GetCerdo(int idCerdos)
+        Cerdo INRepositorioCerdo.GetCerdo(int idCerdos)// metodo para listar un cerdo
         {
             return _appContext.Cerdos.FirstOrDefault(p => p.IdCerdos == idCerdos);
         }
 
-        Cerdo INRepositorioCerdo.UpdateCerdo(Cerdo cerdo)
+        Cerdo INRepositorioCerdo.UpdateCerdo(Cerdo cerdo) // metodo pra mdificar un cerdo
         {
             var cerdoEncontrado = _appContext.Cerdos.FirstOrDefault(p => p.IdCerdos == cerdo.IdCerdos);
             if (cerdoEncontrado != null)
             {
+                // se escriben todos los atributos
                 cerdoEncontrado.IdCerdos = cerdo.IdCerdos;
                 cerdoEncontrado.Nombre = cerdo.Nombre;
                 cerdoEncontrado.Color = cerdo.Color;
+                cerdoEncontrado.Especie = cerdo.Especie;
                 cerdoEncontrado.Raza = cerdo.Raza;
-                // todos los atributos
+                
                 _appContext.SaveChanges();
             }
             return cerdoEncontrado;

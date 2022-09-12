@@ -10,6 +10,7 @@ namespace   CuidadoPorcino.App.Dominio
         public double Peso {get; set;} 
         public int FrecuenciaRespiratoria {get; set;} 
         public int FrecuenciaCardiaca {get; set;} 
-        public string EstadoDeAnimo {get; set;}       
+        public string EstadoDeAnimo {get; set;} 
+        public Cerdo cerdo{get; set;}      
     }
 }
