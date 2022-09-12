@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
       "projectName": "CuidadoPorcino.App.Dominio",
-      "projectPath": "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
+      "projectPath": "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-      "outputPath": "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config"

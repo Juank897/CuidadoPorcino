@@ -8,6 +8,6 @@ namespace CuidadoPorcino.App.Dominio
         public int IdVeterinario { get; set; }
         public string TarjetaProfesional { get; set; }
         public Persona persona { get; set; }
-        public Cerdo cerdo { get; set; }
+       
     }
 }

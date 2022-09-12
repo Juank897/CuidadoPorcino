@@ -7,8 +7,7 @@ namespace   CuidadoPorcino.App.Dominio
         [Key] 
         public int IdHistoriaClinica{get; set;} 
         public string FechaApertura{get; set;} 
-        public Cerdo cerdo{get; set;} 
-        public Recomendacion recomendacion{get; set;}       
+        public Cerdo cerdo{get; set;}             
         
     }
 }

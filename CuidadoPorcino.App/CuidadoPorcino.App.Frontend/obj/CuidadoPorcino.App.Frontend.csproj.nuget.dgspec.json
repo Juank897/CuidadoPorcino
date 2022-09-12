@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj": {}
+    "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj": {
+    "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj",
         "projectName": "CuidadoPorcino.App.Frontend",
-        "projectPath": "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj",
+        "projectPath": "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-        "outputPath": "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\obj\\",
+        "outputPath": "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config"

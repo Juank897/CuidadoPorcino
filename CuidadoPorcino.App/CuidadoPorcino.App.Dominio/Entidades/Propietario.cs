@@ -6,8 +6,11 @@ namespace CuidadoPorcino.App.Dominio
     {
         [Key]
         public int IdPropietario { get; set; }
+        public string Email{get; set;} 
+
+
         public Persona persona { get; set; }
-        public Cerdo cerdo { get; set; }
+       
 
     }
 }
