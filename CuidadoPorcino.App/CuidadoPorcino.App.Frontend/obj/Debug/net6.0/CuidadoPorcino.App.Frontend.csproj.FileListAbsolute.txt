@@ -50,3 +50,4 @@ C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino
 C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.pdb
 C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.genruntimeconfig.cache
 C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\ref\CuidadoPorcino.App.Frontend.dll
+C:\Alejo Programing\Clon\1\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.pdb
