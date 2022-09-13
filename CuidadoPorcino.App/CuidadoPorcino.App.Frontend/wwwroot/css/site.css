@@ -15,4 +15,13 @@ html {
 
 body {
   margin-bottom: 60px;
+ 
+}
+#formulario1
+{
+  background: rgb(217, 219, 223);
+}
+#texto1
+{
+  background: rgb(236, 202, 157);
 }
