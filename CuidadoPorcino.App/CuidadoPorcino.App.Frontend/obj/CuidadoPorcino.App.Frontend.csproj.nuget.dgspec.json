@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj": {}
+    "/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/CuidadoPorcino.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj": {
+    "/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/CuidadoPorcino.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj",
+        "projectUniqueName": "/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/CuidadoPorcino.App.Frontend.csproj",
         "projectName": "CuidadoPorcino.App.Frontend",
-        "projectPath": "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\CuidadoPorcino.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Frontend\\obj\\",
+        "projectPath": "/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/CuidadoPorcino.App.Frontend.csproj",
+        "packagesPath": "/Users/juansebastianhernandez/.nuget/packages/",
+        "outputPath": "/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/juansebastianhernandez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }

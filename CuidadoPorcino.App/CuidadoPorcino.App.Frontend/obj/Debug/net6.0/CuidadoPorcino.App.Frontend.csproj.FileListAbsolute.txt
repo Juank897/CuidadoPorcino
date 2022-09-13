@@ -1,52 +1,78 @@
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\appsettings.Development.json
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\appsettings.json
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.staticwebassets.runtime.json
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.exe
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.deps.json
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.runtimeconfig.json
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.dll
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.pdb
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.csproj.AssemblyReference.cache
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.AssemblyInfoInputs.cache
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.AssemblyInfo.cs
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.csproj.CoreCompileInputs.cache
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.RazorAssemblyInfo.cache
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.RazorAssemblyInfo.cs
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\staticwebassets.build.json
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\staticwebassets.development.json
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\scopedcss\bundle\CuidadoPorcino.App.Frontend.styles.css
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\scopedcss\projectbundle\CuidadoPorcino.App.Frontend.bundle.scp.css
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.dll
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\refint\CuidadoPorcino.App.Frontend.dll
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.pdb
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.genruntimeconfig.cache
-C:\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\ref\CuidadoPorcino.App.Frontend.dll
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\appsettings.json
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.staticwebassets.runtime.json
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.exe
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.deps.json
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.runtimeconfig.json
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.dll
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\bin\Debug\net6.0\CuidadoPorcino.App.Frontend.pdb
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.csproj.AssemblyReference.cache
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.AssemblyInfoInputs.cache
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.AssemblyInfo.cs
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.csproj.CoreCompileInputs.cache
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.RazorAssemblyInfo.cache
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.RazorAssemblyInfo.cs
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\scopedcss\bundle\CuidadoPorcino.App.Frontend.styles.css
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\scopedcss\projectbundle\CuidadoPorcino.App.Frontend.bundle.scp.css
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.dll
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\refint\CuidadoPorcino.App.Frontend.dll
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.pdb
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\CuidadoPorcino.App.Frontend.genruntimeconfig.cache
-C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\obj\Debug\net6.0\ref\CuidadoPorcino.App.Frontend.dll
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/appsettings.Development.json
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/appsettings.json
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.staticwebassets.runtime.json
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.exe
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.deps.json
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.runtimeconfig.json
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.dll
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.pdb
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.csproj.AssemblyReference.cache
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.AssemblyInfoInputs.cache
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.AssemblyInfo.cs
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.csproj.CoreCompileInputs.cache
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.RazorAssemblyInfo.cache
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.RazorAssemblyInfo.cs
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/staticwebassets.build.json
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/staticwebassets.development.json
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/scopedcss/bundle/CuidadoPorcino.App.Frontend.styles.css
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/scopedcss/projectbundle/CuidadoPorcino.App.Frontend.bundle.scp.css
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.dll
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/refint/CuidadoPorcino.App.Frontend.dll
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.pdb
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.genruntimeconfig.cache
+C:/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/ref/CuidadoPorcino.App.Frontend.dll
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/appsettings.json
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.staticwebassets.runtime.json
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.exe
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.deps.json
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.runtimeconfig.json
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.dll
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.pdb
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.csproj.AssemblyReference.cache
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.AssemblyInfoInputs.cache
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.AssemblyInfo.cs
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.csproj.CoreCompileInputs.cache
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.RazorAssemblyInfo.cache
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.RazorAssemblyInfo.cs
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/scopedcss/bundle/CuidadoPorcino.App.Frontend.styles.css
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/scopedcss/projectbundle/CuidadoPorcino.App.Frontend.bundle.scp.css
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.dll
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/refint/CuidadoPorcino.App.Frontend.dll
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.pdb
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.genruntimeconfig.cache
+C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/ref/CuidadoPorcino.App.Frontend.dll
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/appsettings.Development.json
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/appsettings.json
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.staticwebassets.runtime.json
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.deps.json
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.runtimeconfig.json
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.dll
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/bin/Debug/net6.0/CuidadoPorcino.App.Frontend.pdb
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.csproj.AssemblyReference.cache
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.AssemblyInfoInputs.cache
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.AssemblyInfo.cs
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.csproj.CoreCompileInputs.cache
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.RazorAssemblyInfo.cache
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.RazorAssemblyInfo.cs
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/staticwebassets.build.json
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/staticwebassets.development.json
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/scopedcss/bundle/CuidadoPorcino.App.Frontend.styles.css
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/scopedcss/projectbundle/CuidadoPorcino.App.Frontend.bundle.scp.css
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.dll
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/refint/CuidadoPorcino.App.Frontend.dll
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.pdb
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/CuidadoPorcino.App.Frontend.genruntimeconfig.cache
+/Users/juansebastianhernandez/Documents/GitHub/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/obj/Debug/net6.0/ref/CuidadoPorcino.App.Frontend.dll

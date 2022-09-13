@@ -1,0 +1,47 @@
+﻿@page
+@model holaweb.App.Frontend.Pages.Hclinica
+@{
+}
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    
+
+<h1>Paciente</h1>
+<h2>Creacion de historia clinica</h2>
+<table class="table2" id="tabla2">
+    @foreach (var item in Model.mylista2)
+       {
+ <tr>
+    <td>
+
+        @item
+       
+    </td>
+    <td>
+      <form>
+        <label for="cedula"></label>
+        <input type="text">
+        <button type="submit">Save</button>
+      </form>  
+    </td>
+ </tr>  
+       }
+    
+</table class="table2" id="tabla2">
+<h2>Busqueda de Paciente</h2>    
+<tr>
+  <td>
+    <td>
+      <form>
+        <label for="cedula">id historia</label>
+        <input type="text">
+        <button type="submit">buscar</button>
+      </form>  
+    </td>
+  </td>
+</tr>
+</body>
+</html>

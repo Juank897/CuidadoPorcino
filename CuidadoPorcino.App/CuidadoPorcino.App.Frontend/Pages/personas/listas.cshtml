@@ -1,0 +1,47 @@
+﻿@page
+@model holaweb.App.Frontend.Pages.listasModel
+@{
+}
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    
+
+<h1>Persona</h1>
+<h2>Creación de usuario</h2>
+<table class="table1" id="tabla1">
+    @foreach (var item in Model.mylista)
+       {
+ <tr>
+    <td>
+
+        @item
+       
+    </td>
+    <td>
+      <form>
+        <label for="cedula"></label>
+        <input type="text">
+      </form>  
+    </td>
+ </tr>  
+       }
+     
+</table>
+ <form><button type="submit" style="margin-bottom: ;10px">guardar usuario</button></form>
+<h2>Busqueda de usuario</h2>    
+<tr>
+  <td>
+    <td>
+      <form>
+        <label for="cedula">id Persona</label>
+        <input type="text">
+        <button type="submit">buscar</button>
+      </form>  
+    </td>
+  </td>
+</tr>
+</body>
+</html>
