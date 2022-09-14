@@ -1,0 +1,28 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.DetallesModel
+@{
+}
+<h2>Datos detallados del Cerdo</h2>
+<br>
+<div>
+   Id Cerdo: @Model.cerdo.IdCerdos
+</div>
+<br>
+<div>
+  Nombre: @Model.cerdo.Nombre
+</div>
+<div>
+  Raza: @Model.cerdo.Raza
+</div>
+<div>
+  Color: @Model.cerdo.Color
+</div>
+<div>
+  Especie: @Model.cerdo.Especie
+</div>
+<div>
+    <a asp-page="./lista" class="btn-default">Regresar a la lista</a>
+</div>
+
+
+

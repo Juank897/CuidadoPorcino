@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
+#nullable disable
+
 namespace CuidadoPorcino.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
@@ -15,16 +17,18 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .UseIdentityColumns()
-                .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.0");
+                .HasAnnotation("ProductVersion", "6.0.0")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("CuidadoPorcino.App.Dominio.Cerdo", b =>
                 {
                     b.Property<int>("IdCerdos")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCerdos"), 1L, 1);
 
                     b.Property<string>("Color")
                         .IsRequired()
@@ -42,17 +46,7 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("propietarioIdPropietario")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("veterinarioIdVeterinario")
-                        .HasColumnType("int");
-
                     b.HasKey("IdCerdos");
-
-                    b.HasIndex("propietarioIdPropietario");
-
-                    b.HasIndex("veterinarioIdVeterinario");
 
                     b.ToTable("Cerdos");
                 });
@@ -61,8 +55,9 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 {
                     b.Property<int>("IdControlSigno")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdControlSigno"), 1L, 1);
 
                     b.Property<string>("DescripcionRecomendacion")
                         .IsRequired()
@@ -91,7 +86,7 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                     b.Property<double>("Temperatura")
                         .HasColumnType("float");
 
-                    b.Property<int?>("historiaClinicaIdHistoriaClinica")
+                    b.Property<int>("historiaClinicaIdHistoriaClinica")
                         .HasColumnType("int");
 
                     b.HasKey("IdControlSigno");
@@ -105,14 +100,15 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 {
                     b.Property<int>("IdHistoriaClinica")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdHistoriaClinica"), 1L, 1);
 
                     b.Property<string>("FechaApertura")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("cerdoIdCerdos")
+                    b.Property<int>("cerdoIdCerdos")
                         .HasColumnType("int");
 
                     b.HasKey("IdHistoriaClinica");
@@ -126,8 +122,9 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 {
                     b.Property<int>("IdPersona")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdPersona"), 1L, 1);
 
                     b.Property<string>("Apellidos")
                         .IsRequired()
@@ -154,14 +151,15 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 {
                     b.Property<int>("IdPropietario")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdPropietario"), 1L, 1);
 
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("personaIdPersona")
+                    b.Property<int>("personaIdPersona")
                         .HasColumnType("int");
 
                     b.HasKey("IdPropietario");
@@ -175,14 +173,15 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 {
                     b.Property<int>("IdVeterinario")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .UseIdentityColumn();
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdVeterinario"), 1L, 1);
 
                     b.Property<string>("TarjetaProfesional")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("personaIdPersona")
+                    b.Property<int>("personaIdPersona")
                         .HasColumnType("int");
 
                     b.HasKey("IdVeterinario");
@@ -192,26 +191,13 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                     b.ToTable("Veterinarios");
                 });
 
-            modelBuilder.Entity("CuidadoPorcino.App.Dominio.Cerdo", b =>
-                {
-                    b.HasOne("CuidadoPorcino.App.Dominio.Propietario", "propietario")
-                        .WithMany()
-                        .HasForeignKey("propietarioIdPropietario");
-
-                    b.HasOne("CuidadoPorcino.App.Dominio.Veterinario", "veterinario")
-                        .WithMany()
-                        .HasForeignKey("veterinarioIdVeterinario");
-
-                    b.Navigation("propietario");
-
-                    b.Navigation("veterinario");
-                });
-
             modelBuilder.Entity("CuidadoPorcino.App.Dominio.ControlSignos", b =>
                 {
                     b.HasOne("CuidadoPorcino.App.Dominio.HistoriaClinica", "historiaClinica")
                         .WithMany()
-                        .HasForeignKey("historiaClinicaIdHistoriaClinica");
+                        .HasForeignKey("historiaClinicaIdHistoriaClinica")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("historiaClinica");
                 });
@@ -220,7 +206,9 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 {
                     b.HasOne("CuidadoPorcino.App.Dominio.Cerdo", "cerdo")
                         .WithMany()
-                        .HasForeignKey("cerdoIdCerdos");
+                        .HasForeignKey("cerdoIdCerdos")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("cerdo");
                 });
@@ -229,7 +217,9 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 {
                     b.HasOne("CuidadoPorcino.App.Dominio.Persona", "persona")
                         .WithMany()
-                        .HasForeignKey("personaIdPersona");
+                        .HasForeignKey("personaIdPersona")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("persona");
                 });
@@ -238,7 +228,9 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 {
                     b.HasOne("CuidadoPorcino.App.Dominio.Persona", "persona")
                         .WithMany()
-                        .HasForeignKey("personaIdPersona");
+                        .HasForeignKey("personaIdPersona")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("persona");
                 });

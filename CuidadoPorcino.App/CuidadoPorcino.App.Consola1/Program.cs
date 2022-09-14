@@ -12,20 +12,28 @@ namespace CuidadoPorcino.App.Consola1
         {
             Console.WriteLine("Hello, Juan Carlos!");
             AddCerdo();
+            //buscarCerdos(1);
         }
 
         private static void AddCerdo()//crear metodo para adicionar cerdo
         {
-            Cerdo cerdo = new Cerdo
+            var cerdo = new Cerdo()
             {
                 //IdCerdos = 1, por defecto crea la llave primaria 
-                Nombre = "Cerdito1",
-                Color = "Negro",
-                Especie = "Zungo",
-                Raza = "Duroc"
+                Nombre = "Cerdo tres",
+                Color = "Flores",
+                Especie = "bonita",
+                Raza = "mejorada dos",
+                
             };
 
             _repoCerdo.AddCerdo(cerdo);
+
+        }
+        private static void buscarCerdos(int IdCerdos)
+        {
+            var cerdo = _repoCerdo.GetCerdo(IdCerdos);
+            Console.WriteLine(cerdo);
 
         }
     }
