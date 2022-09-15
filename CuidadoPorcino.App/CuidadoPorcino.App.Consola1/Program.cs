@@ -16,13 +16,13 @@ namespace CuidadoPorcino.App.Consola1
 
         private static void AddCerdo()//crear metodo para adicionar cerdo
         {
-            Cerdo cerdo = new Cerdo
+            var cerdo = new Cerdo()
             {
                 //IdCerdos = 1, por defecto crea la llave primaria 
-                Nombre = "Cerdito1",
-                Color = "Negro",
-                Especie = "Zungo",
-                Raza = "Duroc"
+                Nombre = "Pepa",
+                Color = "Blanco",
+                Especie = "Carne",
+                Raza = "Feliz"
             };
 
             _repoCerdo.AddCerdo(cerdo);

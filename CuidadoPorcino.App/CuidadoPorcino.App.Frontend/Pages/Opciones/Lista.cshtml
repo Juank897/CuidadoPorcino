@@ -1,0 +1,18 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.ListaModel
+@{
+}
+<h1>Listado de cerdos</h1>
+<table class="table">
+@foreach (var cerdo in Model.cerd)
+{
+    <tr>
+        <td>@cerdo.Nombre</td>
+        <td>@cerdo.Color</td>
+        <td>@cerdo.Especie</td>
+        <td>
+            <a classe="btn-primaty table-btn"asp-page"./detalles">Detalles <i class=""fas fa-ingo-circle fa-lg" aria-hidden="true"></i></a>
+        </td>
+    </tr>
+}
+</table>

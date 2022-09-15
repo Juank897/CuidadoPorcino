@@ -5973,19 +5973,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\home\\.nuget\\packages\\": {}
+    "C:\\Users\\w11pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Consola1\\CuidadoPorcino.App.Consola1.csproj",
+      "projectUniqueName": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Consola1\\CuidadoPorcino.App.Consola1.csproj",
       "projectName": "CuidadoPorcino.App.Consola1",
-      "projectPath": "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Consola1\\CuidadoPorcino.App.Consola1.csproj",
-      "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-      "outputPath": "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Consola1\\obj\\",
+      "projectPath": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Consola1\\CuidadoPorcino.App.Consola1.csproj",
+      "packagesPath": "C:\\Users\\w11pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Consola1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\w11pc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -5997,11 +5997,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj": {
-              "projectPath": "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj"
+            "C:\\Users\\w11pc\\OneDrive\\Escritorio\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj"
             },
-            "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Persistencia\\CuidadoPorcino.App.Persistencia.csproj": {
-              "projectPath": "C:\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Persistencia\\CuidadoPorcino.App.Persistencia.csproj"
+            "C:\\Users\\w11pc\\OneDrive\\Escritorio\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Persistencia\\CuidadoPorcino.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Persistencia\\CuidadoPorcino.App.Persistencia.csproj"
             }
           }
         }
