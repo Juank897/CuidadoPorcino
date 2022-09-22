@@ -1,0 +1,46 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.IngresarPersonaModel
+@{
+}
+<div class="Container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="text-info"> <h1>Creación Persona</h1> </div>
+            <form method="post">
+                <table class="table">
+                    
+                    <tr>
+                        <div>
+                            <td> <label asp-for="persona.Nombres" class="fromlabel"></label>  </td>
+                            <td> <input asp-for="persona.Nombres" class="from-control"> <span asp-validation-for="persona.Nombres" class="text-danger"></span></td>
+                        </div>
+                    </tr>
+                    <hr>
+                    <tr>
+                        <div>
+                            <td> <label asp-for="persona.Apellidos" class="fromlabel"></label>  </td>
+                            <td> <input asp-for="persona.Apellidos" class="from-control"> <span asp-validation-for="persona.Apellidos" class="text-danger"></span></td>
+                        </div>
+                    </tr>
+                    <hr>
+                    <tr>
+                        <div>
+                            <td> <label asp-for="persona.Direccion" class="fromlabel"></label>  </td>
+                            <td> <input asp-for="persona.Direccion" class="from-control"> <span asp-validation-for="persona.Direccion" class="text-danger"></span></td>
+                        </div>
+                    </tr>
+                    <hr>
+                    <tr>
+                        <div>
+                            <td> <label asp-for="persona.Telefono" class="fromlabel"></label>  </td>
+                            <td> <input asp-for="persona.Telefono" class="from-control"> <span asp-validation-for="persona.Telefono" class="text-danger"></span></td>
+                        </div>
+                    </tr>
+                    <hr>
+
+                </table>
+                <button type="submit" class="btn btn-primary">Guardar Persona</button>
+            </form>
+        </div>
+    </div>
+</div>

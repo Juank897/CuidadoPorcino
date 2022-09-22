@@ -29,6 +29,8 @@ namespace CuidadoPorcino.App.Persistencia
                 return;
             }
             _appContext.Cerdos.Remove(cerdoEncontrado);
+            _appContext.SaveChanges(); // guardar cambios
+
         }
 
         IEnumerable<Cerdo> INRepositorioCerdo.GetAllCerdos()//metodo para listar todos los cerdos
@@ -41,7 +43,7 @@ namespace CuidadoPorcino.App.Persistencia
             return _appContext.Cerdos.FirstOrDefault(p => p.IdCerdos == idCerdos);
         }
 
-        Cerdo INRepositorioCerdo.UpdateCerdo(Cerdo cerdo) // metodo pra mdificar un cerdo
+        Cerdo INRepositorioCerdo.UpdateCerdo(Cerdo cerdo) // metodo para mdificar un cerdo
         {
             var cerdoEncontrado = _appContext.Cerdos.FirstOrDefault(p => p.IdCerdos == cerdo.IdCerdos);
             if (cerdoEncontrado != null)
@@ -52,10 +54,13 @@ namespace CuidadoPorcino.App.Persistencia
                 cerdoEncontrado.Color = cerdo.Color;
                 cerdoEncontrado.Especie = cerdo.Especie;
                 cerdoEncontrado.Raza = cerdo.Raza;
+                cerdoEncontrado.propietario = cerdo.propietario;
                 
                 _appContext.SaveChanges();
             }
             return cerdoEncontrado;
+            
         }
+        
     }
 }

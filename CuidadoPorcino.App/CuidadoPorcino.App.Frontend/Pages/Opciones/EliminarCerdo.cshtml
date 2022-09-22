@@ -1,0 +1,38 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.EliminarCerdoModel
+@{
+}
+<h1>Eliminar Cerdo</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="cerdo.IdCerdos">
+    <div class="form-grup">
+        <label asp-for="cerdo.IdCerdos"></label>
+        <input asp-for="cerdo.IdCerdos" class="form-control">
+        <span class="text-danger" asp-validation-for="cerdo.IdCerdos"></span>
+    </div>
+    <div class="form-grup">
+        <label asp-for="cerdo.Nombre"></label>
+        <input asp-for="cerdo.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="cerdo.Nombre"></span>
+    </div>
+    <div class="form-grup">
+        <label asp-for="cerdo.Color"></label>
+        <input asp-for="cerdo.Color" class="form-control">
+        <span class="text-danger" asp-validation-for="cerdo.Color"></span>
+    </div>
+    <div class="form-grup">
+        <label asp-for="cerdo.Especie"></label>
+        <input asp-for="cerdo.Especie" class="form-control">
+        <span class="text-danger" asp-validation-for="cerdo.Especie"></span>
+    </div>
+    <div class="form-grup">
+        <label asp-for="cerdo.Raza"></label>
+        <input asp-for="cerdo.Raza" class="form-control">
+        <span class="text-danger" asp-validation-for="cerdo.Raza"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Eliminar</button>
+
+</form>
+

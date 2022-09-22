@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CuidadoPorcino.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220914133652_inicial")]
+    [Migration("20220922011029_inicial")]
     partial class inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -48,7 +48,12 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("propietarioIdPropietario")
+                        .HasColumnType("int");
+
                     b.HasKey("IdCerdos");
+
+                    b.HasIndex("propietarioIdPropietario");
 
                     b.ToTable("Cerdos");
                 });
@@ -191,6 +196,17 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                     b.HasIndex("personaIdPersona");
 
                     b.ToTable("Veterinarios");
+                });
+
+            modelBuilder.Entity("CuidadoPorcino.App.Dominio.Cerdo", b =>
+                {
+                    b.HasOne("CuidadoPorcino.App.Dominio.Propietario", "propietario")
+                        .WithMany()
+                        .HasForeignKey("propietarioIdPropietario")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("propietario");
                 });
 
             modelBuilder.Entity("CuidadoPorcino.App.Dominio.ControlSignos", b =>

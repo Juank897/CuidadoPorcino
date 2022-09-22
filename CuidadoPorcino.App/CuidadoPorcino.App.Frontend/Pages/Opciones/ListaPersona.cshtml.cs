@@ -10,19 +10,17 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace CuidadoPorcino.App.Frontend.Pages
 {
-
-    public class listaModel : PageModel
+    public class ListaPersonaModel : PageModel
     {
-        private readonly INRepositorioCerdo repositorioCerdo;
-        public IEnumerable<Cerdo> cerdos {set;get;}
-        public listaModel()
+        private readonly INRepositorioPersona repositorioPersona;
+        public IEnumerable<Persona> personas {set;get;}
+        public ListaPersonaModel()
         {
-            this.repositorioCerdo = new RepositorioCerdo(new CuidadoPorcino.App.Persistencia.AppContext());
+            this.repositorioPersona = new RepositorioPersona(new CuidadoPorcino.App.Persistencia.AppContext());
         }
         public void OnGet()
         {
-            cerdos = repositorioCerdo.GetAllCerdos();            
-
+            personas = repositorioPersona.GetAllPersonas();
         }
     }
 }

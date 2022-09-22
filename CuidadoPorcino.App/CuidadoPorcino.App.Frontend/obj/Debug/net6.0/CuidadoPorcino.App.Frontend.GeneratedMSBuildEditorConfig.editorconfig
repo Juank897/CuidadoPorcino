@@ -23,12 +23,60 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/Detalles.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRGV0YWxsZXMuY3NodG1s
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/DetallesCerdo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRGV0YWxsZXNDZXJkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/lista.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcbGlzdGEuY3NodG1s
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/DetallesPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRGV0YWxsZXNQZXJzb25hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EditarCerdo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRWRpdGFyQ2VyZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EditarPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRWRpdGFyUGVyc29uYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EliminarCerdo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRWxpbWluYXJDZXJkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EliminarPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRWxpbWluYXJQZXJzb25hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarCerdo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcSW5ncmVzYXJDZXJkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcSW5ncmVzYXJQZXJzb25hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarPropietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcSW5ncmVzYXJQcm9waWV0YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarVeterinario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcSW5ncmVzYXJWZXRlcmluYXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/listaCerdo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcbGlzdGFDZXJkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/ListaPersona.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcTGlzdGFQZXJzb25hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/ListaPropietario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcTGlzdGFQcm9waWV0YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/ListaVeterinario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcTGlzdGFWZXRlcmluYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/Veterinario.cshtml]

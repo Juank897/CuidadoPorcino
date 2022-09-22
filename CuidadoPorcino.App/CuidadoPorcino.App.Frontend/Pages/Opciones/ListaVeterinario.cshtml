@@ -1,0 +1,32 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.ListaVeterinarioModel
+@{
+}
+<h1>Listado de Veterinarios</h1>
+<hr>
+<table class="table">
+    @foreach (var veterinario in Model.veterinarios)
+    {
+        <tr>
+            <td>@veterinario.TarjetaProfesional</td>
+            <td>@veterinario.persona.Apellidos</td>
+            
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesVeterinario" asp-route-IdVeterinario="@veterinario.IdVeterinario">Detalles <i
+                    class="fas fa-info-circle fa-lg" aria-hidden="true"></i> </a>
+            </td>
+            <td>
+                <div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed styles example">
+                    <a class="btn btn-warning d-inline" asp-area="" asp-route-IdVeterinario="@veterinario.IdVeterinario" asp-page="./EditarVeterinarios"><i class="fas fa-edit"></i> Editar</a>
+                    
+                    <a class="btn btn-danger d-inline" asp-area="" asp-route-IdVeterinario="@veterinario.IdVeterinario" asp-page="./EliminarVeterinario"><i
+                        class="fas fa-trash-alt"></i> Eliminar</a>
+                </div>
+            </td>
+        </tr>
+
+    }
+
+</table>
+<br>
+<a class="btn btn-primary" asp-page="./IngresarVeterinario" > Adicionar Veterinario</a>

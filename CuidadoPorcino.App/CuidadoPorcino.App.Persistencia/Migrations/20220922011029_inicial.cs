@@ -10,22 +10,6 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Cerdos",
-                columns: table => new
-                {
-                    IdCerdos = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Color = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Especie = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Raza = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Cerdos", x => x.IdCerdos);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Personas",
                 columns: table => new
                 {
@@ -39,26 +23,6 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Personas", x => x.IdPersona);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "HistoriaClinicas",
-                columns: table => new
-                {
-                    IdHistoriaClinica = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    FechaApertura = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    cerdoIdCerdos = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_HistoriaClinicas", x => x.IdHistoriaClinica);
-                    table.ForeignKey(
-                        name: "FK_HistoriaClinicas_Cerdos_cerdoIdCerdos",
-                        column: x => x.cerdoIdCerdos,
-                        principalTable: "Cerdos",
-                        principalColumn: "IdCerdos",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -102,6 +66,49 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Cerdos",
+                columns: table => new
+                {
+                    IdCerdos = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Color = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Especie = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Raza = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    propietarioIdPropietario = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Cerdos", x => x.IdCerdos);
+                    table.ForeignKey(
+                        name: "FK_Cerdos_Propietarios_propietarioIdPropietario",
+                        column: x => x.propietarioIdPropietario,
+                        principalTable: "Propietarios",
+                        principalColumn: "IdPropietario",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "HistoriaClinicas",
+                columns: table => new
+                {
+                    IdHistoriaClinica = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FechaApertura = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    cerdoIdCerdos = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_HistoriaClinicas", x => x.IdHistoriaClinica);
+                    table.ForeignKey(
+                        name: "FK_HistoriaClinicas_Cerdos_cerdoIdCerdos",
+                        column: x => x.cerdoIdCerdos,
+                        principalTable: "Cerdos",
+                        principalColumn: "IdCerdos",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "ControlSignos",
                 columns: table => new
                 {
@@ -127,6 +134,11 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                         principalColumn: "IdHistoriaClinica",
                         onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Cerdos_propietarioIdPropietario",
+                table: "Cerdos",
+                column: "propietarioIdPropietario");
 
             migrationBuilder.CreateIndex(
                 name: "IX_ControlSignos_historiaClinicaIdHistoriaClinica",
@@ -155,19 +167,19 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 name: "ControlSignos");
 
             migrationBuilder.DropTable(
-                name: "Propietarios");
-
-            migrationBuilder.DropTable(
                 name: "Veterinarios");
 
             migrationBuilder.DropTable(
                 name: "HistoriaClinicas");
 
             migrationBuilder.DropTable(
-                name: "Personas");
+                name: "Cerdos");
 
             migrationBuilder.DropTable(
-                name: "Cerdos");
+                name: "Propietarios");
+
+            migrationBuilder.DropTable(
+                name: "Personas");
         }
     }
 }

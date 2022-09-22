@@ -1,0 +1,39 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.EliminarPersonaModel
+@{
+}
+<h1>Eliminar Persona</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="persona.IdPersona">
+    <div class="form-grup">
+        <label asp-for="persona.IdPersona"></label>
+        <input asp-for="persona.IdPersona" class="form-control">
+        <span class="text-danger" asp-validation-for="persona.IdPersona"></span>
+    </div>
+    <div class="form-grup">
+        <label asp-for="persona.Nombres"></label>
+        <input asp-for="persona.Nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="persona.Nombres"></span>
+    </div>
+    <div class="form-grup">
+        <label asp-for="persona.Apellidos"></label>
+        <input asp-for="persona.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="persona.Apellidos"></span>
+    </div>
+    <div class="form-grup">
+        <label asp-for="persona.Direccion"></label>
+        <input asp-for="persona.Direccion" class="form-control">
+        <span class="text-danger" asp-validation-for="persona.Direccion"></span>
+    </div>
+    <div class="form-grup">
+        <label asp-for="persona.Telefono"></label>
+        <input asp-for="persona.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="persona.Telefono"></span>
+    </div>
+    <br>
+    
+    <button type="submit" class="btn btn-primary">Eliminar</button>
+
+</form>
+

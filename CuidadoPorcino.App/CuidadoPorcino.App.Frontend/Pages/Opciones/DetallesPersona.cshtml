@@ -1,0 +1,27 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.DetallesPersonaModel
+@{
+}
+<h2 class="Detalles" id="Detalles">Datos detallados de una persona</h2>
+<br>
+<hr>
+<div >
+   Id Persona: @Model.persona.IdPersona
+</div>
+
+<div>
+  Nombre: @Model.persona.Nombres
+</div>
+<div>
+  Apellidos: @Model.persona.Apellidos
+</div>
+<div>
+  Dirección: @Model.persona.Direccion
+</div>
+<div>
+  Teléfono: @Model.persona.Telefono
+</div>
+<div>
+    <a asp-page="./listaPersona" class="btn-default">Regresar a la lista</a>
+</div>
+

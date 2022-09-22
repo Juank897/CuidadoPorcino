@@ -1,0 +1,33 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.ListaPersonaModel
+@{
+}
+<h1>Listado de personas</h1>
+<hr>
+<table class="table">
+    @foreach (var persona in Model.personas)
+    {
+        <tr>
+            <td>@persona.IdPersona</td>
+            <td>@persona.Nombres</td>
+            <td>@persona.Apellidos</td>
+            <td>@persona.Direccion</td>
+            <td>@persona.Telefono</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesPersona" asp-route-IdPersona="@persona.IdPersona">Detalles <i
+                    class="fas fa-info-circle fa-lg" aria-hidden="true"></i> </a>
+            </td>
+            <td>
+                <div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed styles example">
+                    <a class="btn btn-warning d-inline" asp-area="" asp-route-IdPersona="@persona.IdPersona" asp-page="./EditarPersona"><i class="fas fa-edit"></i> Editar</a>
+                    
+                    <a class="btn btn-danger d-inline" asp-area="" asp-route-IdPersona="@persona.IdPersona" asp-page="./EliminarPersona"><i
+                        class="fas fa-trash-alt"></i> Eliminar</a>
+                </div>
+            </td>
+        </tr>
+
+    }
+
+</table>
+<a class="btn btn-primary" asp-page="./IngresarPersona" > Adicionar persona</a>

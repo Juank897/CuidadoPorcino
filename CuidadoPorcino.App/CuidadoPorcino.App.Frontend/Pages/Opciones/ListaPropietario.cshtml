@@ -1,0 +1,32 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.ListaPropietarioModel
+@{
+}
+<h1>Listado de propietarios</h1>
+<hr>
+<table class="table">
+    @foreach (var propietario in Model.propietarios)
+    {
+        <tr>
+            <td>@propietario.IdPropietario</td>
+            <td>@propietario.Email</td>
+            <td>@propietario.persona</td>
+            
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesPropietario" asp-route-IdPersona="@propietario.IdPropietario">Detalles <i
+                    class="fas fa-info-circle fa-lg" aria-hidden="true"></i> </a>
+            </td>
+            <td>
+                <div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed styles example">
+                    <a class="btn btn-warning d-inline" asp-area="" asp-route-IdPersona="@propietario.IdPropietario" asp-page="./EditarPropietario"><i class="fas fa-edit"></i> Editar</a>
+                    
+                    <a class="btn btn-danger d-inline" asp-area="" asp-route-IdPersona="@propietario.IdPropietario" asp-page="./EliminarPropietario"><i
+                        class="fas fa-trash-alt"></i> Eliminar</a>
+                </div>
+            </td>
+        </tr>
+
+    }
+
+</table>
+<a class="btn btn-primary" asp-page="./IngresarPersona" > Adicionar persona</a>

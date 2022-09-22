@@ -2,12 +2,13 @@
 @model CuidadoPorcino.App.Frontend.Pages.DetallesModel
 @{
 }
-<h2>Datos detallados del Cerdo</h2>
+<h2 class="Detalles" id="Detalles">Datos detallados del Cerdo</h2>
 <br>
-<div>
+<hr>
+<div >
    Id Cerdo: @Model.cerdo.IdCerdos
 </div>
-<br>
+
 <div>
   Nombre: @Model.cerdo.Nombre
 </div>
@@ -21,7 +22,7 @@
   Especie: @Model.cerdo.Especie
 </div>
 <div>
-    <a asp-page="./lista" class="btn-default">Regresar a la lista</a>
+    <a asp-page="./listaCerdo" class="btn-default">Regresar a la lista</a>
 </div>
 
 

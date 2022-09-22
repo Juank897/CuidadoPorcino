@@ -46,7 +46,12 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("propietarioIdPropietario")
+                        .HasColumnType("int");
+
                     b.HasKey("IdCerdos");
+
+                    b.HasIndex("propietarioIdPropietario");
 
                     b.ToTable("Cerdos");
                 });
@@ -189,6 +194,17 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                     b.HasIndex("personaIdPersona");
 
                     b.ToTable("Veterinarios");
+                });
+
+            modelBuilder.Entity("CuidadoPorcino.App.Dominio.Cerdo", b =>
+                {
+                    b.HasOne("CuidadoPorcino.App.Dominio.Propietario", "propietario")
+                        .WithMany()
+                        .HasForeignKey("propietarioIdPropietario")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("propietario");
                 });
 
             modelBuilder.Entity("CuidadoPorcino.App.Dominio.ControlSignos", b =>

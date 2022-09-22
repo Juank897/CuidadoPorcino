@@ -10,7 +10,7 @@ namespace CuidadoPorcino.App.Persistencia
         void DeleteCerdo(int IdCerdos); //borrar cerdo
         IEnumerable<Cerdo> GetAllCerdos();//listar cerdos
         Cerdo GetCerdo(int IdCerdos); //listar un cerdo
-        Cerdo UpdateCerdo (Cerdo cerdo); //modificar cerdo
+        Cerdo UpdateCerdo (Cerdo cerdo); //modificar cerdo       
     }
 
 }

@@ -1,0 +1,46 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.IngresarModel
+@{
+}
+<div class="Container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="text-info"> <h1>Creación Cerditos</h1> </div>
+            <form method="post">
+                <table class="table">
+                    
+                    <tr>
+                        <div>
+                            <td> <label asp-for="cerdo.Nombre" class="fromlabel"></label>  </td>
+                            <td> <input asp-for="cerdo.Nombre" class="from-control"> <span asp-validation-for="cerdo.Nombre" class="text-danger"></span></td>
+                        </div>
+                    </tr>
+                    <hr>
+                    <tr>
+                        <div>
+                            <td> <label asp-for="cerdo.Color" class="fromlabel"></label>  </td>
+                            <td> <input asp-for="cerdo.Color" class="from-control"> <span asp-validation-for="cerdo.Color" class="text-danger"></span></td>
+                        </div>
+                    </tr>
+                    <hr>
+                    <tr>
+                        <div>
+                            <td> <label asp-for="cerdo.Especie" class="fromlabel"></label>  </td>
+                            <td> <input asp-for="cerdo.Especie" class="from-control"> <span asp-validation-for="cerdo.Especie" class="text-danger"></span></td>
+                        </div>
+                    </tr>
+                    <hr>
+                    <tr>
+                        <div>
+                            <td> <label asp-for="cerdo.Raza" class="fromlabel"></label>  </td>
+                            <td> <input asp-for="cerdo.Raza" class="from-control"> <span asp-validation-for="cerdo.Raza" class="text-danger"></span></td>
+                        </div>
+                    </tr>
+                    <hr>
+
+                </table>
+                <button type="submit" class="btn btn-primary">Guardar cerdito</button>
+            </form>
+        </div>
+    </div>
+</div>

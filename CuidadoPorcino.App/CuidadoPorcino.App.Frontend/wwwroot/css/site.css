@@ -15,6 +15,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  color: rgb(60, 0, 255);
  
 }
 #formulario1
@@ -24,4 +25,9 @@ body {
 #texto1
 {
   background: rgb(236, 202, 157);
+}
+
+#Detalles
+{
+  background: rgb(245, 54, 54);
 }

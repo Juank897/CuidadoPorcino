@@ -14,6 +14,8 @@ namespace CuidadoPorcino.App.Consola1
             AddCerdo();
             //buscarCerdos(1);
         }
+        
+       
 
         private static void AddCerdo()//crear metodo para adicionar cerdo
         {

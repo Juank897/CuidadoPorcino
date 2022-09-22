@@ -1,0 +1,34 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.IngresarVeterinarioModel
+@{
+}
+<div class="Container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="text-info"> <h1>Creación Veterinario</h1> </div>
+            <form method="post">
+                <table class="table">
+                    
+                    
+                    <tr>
+                        <div>
+                            <td> <label asp-for="veterinario.TarjetaProfesional" class="fromlabel">Tarjeta profesional</label>  </td>
+                            <td> <input asp-for="veterinario.TarjetaProfesional" class="from-control"> <span asp-validation-for="veterinario.TarjetaProfesional" class="text-danger"></span></td>
+                        </div>
+                    </tr> 
+                    <hr> 
+                    <tr>
+                        <div>
+                            <td> <label asp-for="veterinario.persona" class="fromlabel">Persona</label>  </td>
+                            <td> <input asp-for="veterinario.persona" class="from-control"> <span asp-validation-for="veterinario.persona" class="text-danger"></span></td>
+                        </div>
+                    </tr>                   
+                    
+                </table>
+                <br>
+                <button type="submit" class="btn btn-primary">Guardar Veterinario</button>
+            </form>
+        </div>
+    </div>
+</div>
+

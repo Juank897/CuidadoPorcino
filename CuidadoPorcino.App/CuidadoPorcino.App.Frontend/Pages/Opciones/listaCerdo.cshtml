@@ -1,0 +1,31 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.listaModel
+@{
+}
+<h1>Listado de cerdos</h1>
+<hr>
+<table class="table">
+    @foreach (var cerdo in Model.cerdos)
+    {
+        <tr>
+            <td>@cerdo.Nombre</td>
+            <td>@cerdo.Color</td>
+            <td>@cerdo.Especie</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesCerdo" asp-route-IdCerdos="@cerdo.IdCerdos">Detalles <i
+                    class="fas fa-info-circle fa-lg" aria-hidden="true"></i> </a>
+            </td>
+            <td>
+                <div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed styles example">
+                    <a class="btn btn-warning d-inline" asp-area="" asp-route-IdCerdos="@cerdo.IdCerdos" asp-page="./EditarCerdo"><i class="fas fa-edit"></i> Editar</a>
+                    
+                    <a class="btn btn-danger d-inline" asp-area="" asp-route-IdCerdos="@cerdo.IdCerdos" asp-page="./EliminarCerdo"><i
+                        class="fas fa-trash-alt"></i> Eliminar</a>
+                </div>
+            </td>
+        </tr>
+
+    }
+
+</table>
+<a class="btn btn-primary" asp-page="./IngresarCerdo" > Adicionar cerditos</a>

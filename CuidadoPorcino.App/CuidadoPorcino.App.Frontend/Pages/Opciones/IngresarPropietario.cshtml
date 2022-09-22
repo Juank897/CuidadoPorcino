@@ -1,0 +1,33 @@
+﻿@page
+@model CuidadoPorcino.App.Frontend.Pages.IngresarPropietarioModel
+@{
+}
+<div class="Container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="text-info"> <h1>Creación Propietario</h1> </div>
+            <form method="post">
+                <table class="table">
+                    
+                    <tr>
+                        <div>
+                            <td> <label asp-for="propietario.Email" class="fromlabel"></label>  </td>
+                            <td> <input asp-for="propietario.Email" class="from-control"> <span asp-validation-for="propietario.Email" class="text-danger"></span></td>
+                        </div>
+                    </tr>
+                    <hr>
+                    <tr>
+                        <div>
+                            <td> <label asp-for="propietario.persona" class="fromlabel"></label>  </td>
+                            <td> <input asp-for="propietario.persona" class="from-control"> <span asp-validation-for="propietario.persona" class="text-danger"></span></td>
+                        </div>
+                    </tr>                    
+                    <hr>
+
+                </table>
+                <button type="submit" class="btn btn-primary">Guardar Propietario</button>
+            </form>
+        </div>
+    </div>
+</div>
+
