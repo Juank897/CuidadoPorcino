@@ -1,16 +1,25 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-namespace   CuidadoPorcino.App.Dominio
+
+namespace CuidadoPorcino.App.Dominio
 {
     public class Persona
     {
         [Key]
-        public int IdPersona {get; set;}
-        public string Nombres {get; set;}
-        public string Apellidos {get; set;}
-        public string Direccion{get; set;}
-        public string Telefono{get; set;}
-               
+        public int IdPersona { get; set; }
+
+        //[Required, StringLenght(50)]
+        public string Nombres { get; set; }
+
+        //[Required, StringLenght(50)]
+        public string Apellidos { get; set; }
         
+        //[Required, StringLenght(50)]
+        public string Direccion { get; set; }
+
+        //[Required, StringLenght(50)]
+        public string Telefono { get; set; }
+
+
     }
 }

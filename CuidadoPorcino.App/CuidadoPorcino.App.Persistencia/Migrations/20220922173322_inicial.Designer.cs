@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CuidadoPorcino.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    [Migration("20220922011029_inicial")]
+    [Migration("20220922173322_inicial")]
     partial class inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

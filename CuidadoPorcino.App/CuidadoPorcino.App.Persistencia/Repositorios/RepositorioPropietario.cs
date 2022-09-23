@@ -8,15 +8,18 @@ namespace CuidadoPorcino.App.Persistencia
     public class RepositorioPropietario : INRepositorioPropietario
     {
         private readonly AppContext _appContext; // crer objeto de la AppContex
-        public RepositorioPropietario(AppContext appContext) // crear el constructor
+
+        public RepositorioPropietario(AppContext appContext)
         {
-            _appContext = appContext; // el parametro se igula con el objeto
+            _appContext = appContext;
         }
+
+        
         Propietario INRepositorioPropietario.AddPropietario(Propietario propietario) // metodo adicionar cerdo, retorna tipo cerdo
         {
             var propietarioAdicionado = _appContext.Propietarios.Add(propietario);// crear variabale "cerdoAdicionado " de tipo var
             //_appContext.Cerdos.Add(cerdo); se crea con tutor mercelo y funciona
-            AsignarPersona(1, propietario);
+            //AsignarPersona(1, propietario);
             _appContext.SaveChanges(); // guardar cambios
             return propietarioAdicionado.Entity;
             // return null; creado con tutor marcelo funciona
@@ -58,10 +61,10 @@ namespace CuidadoPorcino.App.Persistencia
             }
             return propietarioEncontrado;
         }
-
+        /*
         public Persona AsignarPersona(int idPersona, Propietario propietario)
         {
-            var personaEncontrada = _appContext.Personas.FirstOrDefault(j=>j.IdPersona==j.idPersona);
+            var personaEncontrada = _appContext.Personas.FirstOrDefault(p=>p.idPersona ==j.idPersona);
             if(personaEncontrada!=null)
             {
                 propietario.persona = personaEncontrada;
@@ -70,5 +73,6 @@ namespace CuidadoPorcino.App.Persistencia
             }
             return null;
         }
+        */
     }
 }

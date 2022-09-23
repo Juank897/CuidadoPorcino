@@ -12,7 +12,7 @@ namespace CuidadoPorcino.App.Persistencia
         Propietario GetPropietario(int IdPropietario); //listar una persona
         Propietario UpdatePropietario (Propietario propietario); //modificar persona
         
-        public Persona AsignarPersona(int idPersona, Propietario propietario);
+        //public Persona AsignarPersona(int idPersona, Propietario propietario);
     }
 
 }

@@ -11,6 +11,7 @@ namespace CuidadoPorcino.App.Dominio
         public string Especie {get; set;} 
         public string Raza {get; set;}         
         public Propietario propietario {set;get;}
+     
         //public Veterinario veterinario {set;get;}
 
              
