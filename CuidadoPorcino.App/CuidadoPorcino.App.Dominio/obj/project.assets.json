@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\Cuidado Porcino\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
       "projectName": "CuidadoPorcino.App.Dominio",
-      "projectPath": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
+      "projectPath": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\Cuidado Porcino\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\w11pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\Cuidado Porcino\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\w11pc\\AppData\\Roaming\\NuGet\\NuGet.Config"

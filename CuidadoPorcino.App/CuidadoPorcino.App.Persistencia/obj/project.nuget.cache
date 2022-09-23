@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "10aVm/6FYD752Jn1BLx6IHaVmik+j6KzPG0gTRNe82sd5IrbGrkVg8fszLZBAivjHZYIsaixjc87e0JBOU5pyA==",
+  "dgSpecHash": "DL5n7PUfaceIA0yZJpxus/dHIkCu28gZH78u8Wf6dCDu/q1WLk8pBDXPaDmkxE5tln09yeFZHJlsPLdz/wORkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Persistencia\\CuidadoPorcino.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\w11pc\\OneDrive\\Escritorio\\Cuidado Porcino\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Persistencia\\CuidadoPorcino.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\w11pc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\w11pc\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
