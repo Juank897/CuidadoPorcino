@@ -38,6 +38,9 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("IdPropietario")
+                        .HasColumnType("int");
+
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -46,12 +49,9 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("propietarioIdPropietario")
-                        .HasColumnType("int");
-
                     b.HasKey("IdCerdos");
 
-                    b.HasIndex("propietarioIdPropietario");
+                    b.HasIndex("IdPropietario");
 
                     b.ToTable("Cerdos");
                 });
@@ -200,7 +200,7 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 {
                     b.HasOne("CuidadoPorcino.App.Dominio.Propietario", "propietario")
                         .WithMany()
-                        .HasForeignKey("propietarioIdPropietario")
+                        .HasForeignKey("IdPropietario")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

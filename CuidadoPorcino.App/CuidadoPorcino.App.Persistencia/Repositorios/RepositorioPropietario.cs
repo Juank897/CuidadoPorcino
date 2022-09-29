@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using CuidadoPorcino.App.Dominio;
 using System.Linq;
-
 namespace CuidadoPorcino.App.Persistencia
 {
     public class RepositorioPropietario : INRepositorioPropietario
@@ -19,6 +18,7 @@ namespace CuidadoPorcino.App.Persistencia
         {
             var propietarioAdicionado = _appContext.Propietarios.Add(propietario);// crear variabale "cerdoAdicionado " de tipo var
             //_appContext.Cerdos.Add(cerdo); se crea con tutor mercelo y funciona
+            
             //AsignarPersona(1, propietario);
             _appContext.SaveChanges(); // guardar cambios
             return propietarioAdicionado.Entity;

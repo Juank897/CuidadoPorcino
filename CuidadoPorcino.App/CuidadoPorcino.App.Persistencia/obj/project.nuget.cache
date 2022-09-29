@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pfZUDWdl/yq+zBEkLls0LYWtniZsCOp/IdYZTa+NV4yMZTjU11kfIMRopccw7rAj2rFcwP9B9z6KQjxnJcO2nQ==",
+  "dgSpecHash": "JkZvEO/cypZrMcOHVrlo8QUQsym/PXv0MvKfS+t7NwnmldafCPwKjZEzNfb7tPhzHK/AvsJc5sHsAHlokDylsQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Persistencia\\CuidadoPorcino.App.Persistencia.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\home\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",

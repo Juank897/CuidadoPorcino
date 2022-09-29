@@ -75,14 +75,14 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                     Color = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Especie = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Raza = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    propietarioIdPropietario = table.Column<int>(type: "int", nullable: false)
+                    IdPropietario = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Cerdos", x => x.IdCerdos);
                     table.ForeignKey(
-                        name: "FK_Cerdos_Propietarios_propietarioIdPropietario",
-                        column: x => x.propietarioIdPropietario,
+                        name: "FK_Cerdos_Propietarios_IdPropietario",
+                        column: x => x.IdPropietario,
                         principalTable: "Propietarios",
                         principalColumn: "IdPropietario",
                         onDelete: ReferentialAction.Cascade);
@@ -136,9 +136,9 @@ namespace CuidadoPorcino.App.Persistencia.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Cerdos_propietarioIdPropietario",
+                name: "IX_Cerdos_IdPropietario",
                 table: "Cerdos",
-                column: "propietarioIdPropietario");
+                column: "IdPropietario");
 
             migrationBuilder.CreateIndex(
                 name: "IX_ControlSignos_historiaClinicaIdHistoriaClinica",

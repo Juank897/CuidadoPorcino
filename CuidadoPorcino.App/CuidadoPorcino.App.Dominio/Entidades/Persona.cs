@@ -20,6 +20,5 @@ namespace CuidadoPorcino.App.Dominio
         //[Required, StringLenght(50)]
         public string Telefono { get; set; }
 
-
     }
 }

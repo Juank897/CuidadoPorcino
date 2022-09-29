@@ -20,7 +20,7 @@ namespace CuidadoPorcino.App.Frontend.Pages{
         }
         public void OnGet()
         {
-            cerdos = repositorioCerdo.GetAllCerdos();            
+            cerdos = repositorioCerdo.GetAllCerdos();           
 
         }
     }
