@@ -8,97 +8,97 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CuidadoPorcino.App.Frontend
 build_property.RootNamespace = CuidadoPorcino.App.Frontend
-build_property.ProjectDir = C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\
+build_property.ProjectDir = C:\Users\w11pc\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\home\Desktop\Min-Tic\Ciclo 3\Programacion\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend
+build_property.MSBuildProjectDirectory = C:\Users\w11pc\CuidadoPorcino\CuidadoPorcino.App\CuidadoPorcino.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Error.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Index.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/DetallesCerdo.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/DetallesCerdo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRGV0YWxsZXNDZXJkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/DetallesPersona.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/DetallesPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRGV0YWxsZXNQZXJzb25hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EditarCerdo.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EditarCerdo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRWRpdGFyQ2VyZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EditarPersona.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EditarPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRWRpdGFyUGVyc29uYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EliminarCerdo.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EliminarCerdo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRWxpbWluYXJDZXJkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EliminarPersona.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/EliminarPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcRWxpbWluYXJQZXJzb25hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarCerdo.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarCerdo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcSW5ncmVzYXJDZXJkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarPersona.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcSW5ncmVzYXJQZXJzb25hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarPropietario.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarPropietario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcSW5ncmVzYXJQcm9waWV0YXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarVeterinario.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/IngresarVeterinario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcSW5ncmVzYXJWZXRlcmluYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/listaCerdo.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/listaCerdo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcbGlzdGFDZXJkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/ListaPersona.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/ListaPersona.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcTGlzdGFQZXJzb25hLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/ListaPropietario.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/ListaPropietario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcTGlzdGFQcm9waWV0YXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/ListaVeterinario.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/ListaVeterinario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcTGlzdGFWZXRlcmluYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/Veterinario.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Opciones/Veterinario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcVmV0ZXJpbmFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Privacy.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/_ViewImports.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/_ViewStart.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/home/Desktop/Min-Tic/Ciclo 3/Programacion/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Shared/_Layout.cshtml]
+[C:/Users/w11pc/CuidadoPorcino/CuidadoPorcino.App/CuidadoPorcino.App.Frontend/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-b6a2e7whs3

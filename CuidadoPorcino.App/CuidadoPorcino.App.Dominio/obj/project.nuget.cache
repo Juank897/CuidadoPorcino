@@ -1,10 +1,17 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "dLRL5m3XkgwzCdtc0vsPy2nOl2o20mwxI3C5w5kh3l+PSqm04dDO6W+vUCP7BSGQYav1c3/1BacirjiyGGyShQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\home\\Desktop\\Min-Tic\\Ciclo 3\\Programacion\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\home\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "0d3tmg3dPSeVyHW+6YBSG5TWqisA8dekp+RYXYk2g1UCdykTE6Q9GinsU58yk3Bhbwr5pXevzt6fK/ZxIor5PA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\w11pc\\CuidadoPorcino\\CuidadoPorcino.App\\CuidadoPorcino.App.Dominio\\CuidadoPorcino.App.Dominio.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> 933648afe5f487b12c6b143458dcf35f6e9d72f2
   "logs": []
 }
