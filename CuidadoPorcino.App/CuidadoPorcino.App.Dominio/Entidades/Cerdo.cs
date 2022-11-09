@@ -17,7 +17,7 @@ namespace CuidadoPorcino.App.Dominio
         [ForeignKey("IdPropietario")]
         public virtual Propietario propietario {set;get;}        
         //public Propietario propietario {set;get;}
-     
+        //public Veterinario veterinario {set;get;}
         //public Veterinario veterinario {set;get;}
 
              
