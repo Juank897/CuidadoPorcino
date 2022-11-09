@@ -20,6 +20,11 @@ namespace CuidadoPorcino.App.Dominio
         //public Veterinario veterinario {set;get;}
         //public Veterinario veterinario {set;get;}
 
+
+        //public Propietario propietario {set;get;}
+        //public Veterinario veterinario {set;get;}
+        //public Veterinario veterinario {set;get;}
+
              
     }
 }
